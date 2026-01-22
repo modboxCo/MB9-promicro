@@ -71,7 +71,7 @@ Para cargar el archivo `.hex` en tu MB9, primero pon el teclado en **modo Bootlo
 Si tienes el entorno de QMK instalado, usa el siguiente comando desde tu terminal:
 ```bash
 qmk flash -kb mb9 -keymap via
-
+```
 ---
 
 ## 📁 Estructura del Repositorio
