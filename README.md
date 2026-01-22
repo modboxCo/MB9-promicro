@@ -13,7 +13,7 @@ El **MB9** es un macropad de 9 teclas basado en el microcontrolador **Pro Micro 
 * **Capas:** 4 capas dinámicas totalmente programables.
 * **Software:** Compatible con VIA (mapeo dinámico sin necesidad de flashear).
 * **Reset:** Bootmagic Lite integrado en la tecla (0,0).
-* **Modding:** Pines libres expuestos para expansión de hardware (OLED/RGB).
+* **Modding:** Pines libres expuestos para expansión de hardware.
 
 ---
 
