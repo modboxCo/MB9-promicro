@@ -38,7 +38,9 @@ El MB9 permite la adición de periféricos soldando directamente a los pines lib
 * **Pantallas OLED (I2C):** Conexión en pines `D1 (SDA)` y `D0 (SCL)`.
 * **Iluminación ARGB (WS2812B):** Conexión en cualquier pin digital disponible (ej. `F4`).
 
-Agregar periferícos requiere habilitar los módulos en los archivos de configuración. Ej: `OLED_ENABLE = yes` en `rules.mk` para usar pantalla OLED.
+Agregar periferícos requiere habilitar los módulos en los archivos de configuración. Ej: `OLED_ENABLE = yes` en `rules.mk` para usar pantalla OLED. Consulta la **[Documentación oficial de QMK](https://docs.qmk.fm/)** para conocer las funciones y requisitos de cada módulo.
+
+
 
 ---
 
@@ -80,5 +82,7 @@ qmk flash -kb mb9 -keymap via
 
 ---
 
-## ⚖️ Licencia
-Este proyecto es de código abierto. Se permite la modificación y distribución del software para adaptar el hardware a necesidades específicas.
+## ⚖️ Licencia y Documentación
+Este proyecto es de código abierto (Open Source). Se permite la libre modificación y distribución del software para adaptar el hardware a necesidades específicas o añadir nuevas funcionalidades.
+
+Para obtener información técnica detallada, guías de configuración avanzada y resolución de problemas, por favor consulta la **[Documentación oficial de QMK](https://docs.qmk.fm/)**.
